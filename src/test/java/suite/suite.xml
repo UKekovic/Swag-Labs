@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="LogInWithEmptyUserNameField">
+        <classes>
+            <class name="swaglabs.my_tests.LogInWithEmptyUserNameField"/>
+        </classes>
+    </test>
+    <test name="Valid LogIn">
+        <classes>
+            <class name="swaglabs.my_tests.ValidLogIn"/>
+        </classes>
+    </test>
+    <test name="Sorting Product">
+        <classes>
+            <class name="swaglabs.my_tests.SortingProductsTest"/>
+        </classes>
+    </test>
+    <test name="Purchase Product">
+        <classes>
+            <class name="swaglabs.my_tests.PurchaseProductTest"/>
+        </classes>
+    </test>
+    <test name="Log Out">
+        <classes>
+            <class name="swaglabs.my_tests.LogOutTest"/>
+        </classes>
+    </test>
+</suite>
